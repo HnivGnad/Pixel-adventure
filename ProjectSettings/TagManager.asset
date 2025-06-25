@@ -5,19 +5,20 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - DeathZone
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Background
+  - Trap
+  - Platform
+  - Item
   - 
   - 
   - 
@@ -41,4 +42,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2982346129
+    locked: 0
+  - name: Ground
+    uniqueID: 1233960799
+    locked: 0
+  - name: Platform
+    uniqueID: 2953568231
+    locked: 0
+  - name: Trap
+    uniqueID: 4235237619
+    locked: 0
+  - name: Item
+    uniqueID: 4142495149
+    locked: 0
+  - name: Player
+    uniqueID: 2197015537
     locked: 0
