@@ -1110,7 +1110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 8
   jumpForce: 18
-  maxJumps: 1
+  maxJumps: 2
   secondJumpMultiplier: 0.8
   wallSlideSpeed: 2
   wallJumpForce: {x: 3, y: 14}

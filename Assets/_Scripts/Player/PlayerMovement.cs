@@ -7,7 +7,9 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField] private float jumpForce = 16f;
 
     [Header("Double Jump Settings")]
-    [SerializeField] private int maxJumps = 1;
+    // Số lần nhảy tối đa (tính cả lần nhảy từ mặt đất).
+    // Để thực hiện double jump ổn định, giá trị mặc định nên là 2.
+    [SerializeField] private int maxJumps = 2;
     [SerializeField] private float secondJumpMultiplier = 0.8f;
 
     [Header("Wall Jump Settings")]
